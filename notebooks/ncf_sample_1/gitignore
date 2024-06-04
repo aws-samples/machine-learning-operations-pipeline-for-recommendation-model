@@ -1,0 +1,8 @@
+# ipython
+.ipynb_checkpoints
+
+# build dir for packaing model trsining/inference code
+code_pkg
+
+# pipeline config file (notebook generated)
+pipeline_config.json
