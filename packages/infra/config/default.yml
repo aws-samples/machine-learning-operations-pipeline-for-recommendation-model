@@ -1,0 +1,52 @@
+---
+# string prefix for resources created by CDK
+namespace: proto
+
+# cdk build account
+toolEnv:
+  # AWS Account ID (12-digit integer)
+  account: "XXXXXXXXXXXX"
+  # AWS region string
+  region: ap-northeast-2
+
+# infra deploy accounts
+targetEnv:
+#  dev:
+#    account: "XXXXXXXXXXXX"
+#    region: ap-northeast-2
+#  test:
+#    account: "XXXXXXXXXXXX"
+#    region: ap-northeast-2
+#  prod:
+#    account: "XXXXXXXXXXXX"
+#    region: ap-northeast-2
+
+# Sagemaker Model package group name for creating endpoints. 
+# EventBridge rules will monitor these package groups and create sagemaker endpoints
+sagemakerModelPackageGroupNames:
+  - "proto-ncf-sample-1"
+  - "proto-ncf-sample-2"
+
+sagemakerEndpointAPIs:
+    - apiName : "ncf1"
+      reqModelName: "ncf-input"
+      endpointName : "proto-ncf-sample-1-endpoint"
+    - apiName : "ncf2"
+      reqModelName: "ncf-input"
+      endpointName : "proto-ncf-sample-2-endpoint"
+
+# SSM ParameterStore keys
+parameterStoreKeys:
+  # DevOps
+  codeCommitDevOpsRepo: /MlOps/CodeCommit/Repository/DevOpsRepo
+  codeCommitDevOpsRepoUrlGrc: /MlOps/CodeCommit/Repository/DevOpsRepo/Url/Grc
+  # MLOps infra
+  sagemakerExecRoleDefault: /MlOps/SageMaker/Execution/Role
+  s3MlOpsBucketArn: /MlOps/S3/Bucket/Arn/s3MlOpsBucket
+  s3MlOpsBucketName: /MlOps/S3/Bucket/Name/s3MlOpsBucket  
+  codeCommitMlOpsRepo: /MlOps/CodeCommit/Repository/MlOpsRepo
+  codeCommitMlOpsRepoUrlGrc: /MlOps/CodeCommit/Repository/MlOpsRepo/Url/Grc
+  # MlOps pipeline props
+  lambdaModelRepackageFunction: /MlOps/Lambda/Function/ModelRepackage
+  lambdaModelMetricFunction: /MlOps/Lambda/Function/ModelMetric
+  modelApproveRuleName: /MlOps/EventBridge/Rule/ModelApprove

@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "ap-northeast-2",
+            "eventTime": "2024-02-29T07:03:26.501Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:XXXXXXXXXXXXXXXXXXXXXXXX:SageMaker"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "10.0.1.168"
+            },
+            "responseElements": {
+                "x-amz-request-id": "G5FFT195EYZGBCWA",
+                "x-amz-id-2": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "uploadtest",
+                "bucket": {
+                    "name": "XXXXXXXXXXXXXXXXXX-ap-northeast-2-mlops-bucket",
+                    "ownerIdentity": {
+                        "principalId": "A1EJRXZQUKQTZJ"
+                    },
+                    "arn": "arn:aws:s3:::XXXXXXXXXXXXXXXXXX-ap-northeast-2-mlops-bucket"
+                },
+                "object": {
+                    "key": "code/ncf-sample/pipeline_config.json",
+                    "size": 504,
+                    "eTag": "4e474886deb39398db69b5d5a6db93e5",
+                    "sequencer": "0065E02C3E6A97044F"
+                }
+            }
+        }
+    ]
+}
