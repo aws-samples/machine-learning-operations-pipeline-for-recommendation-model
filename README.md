@@ -10,7 +10,7 @@ Build MLOps pipeline for recommendation ML models.
 ![architecture](./docs/mlops_pipeline_architecture.png)
 
 ### 1.1 Documents
-* [MLOps Pipeline Architecture]
+* [MLOps Pipeline Architecture](./docs/mlops_architecture.md)
 * [Standardize Repositories and Data Structure](./docs/data_governance.md)
 
 ## 2. Quick Setup
