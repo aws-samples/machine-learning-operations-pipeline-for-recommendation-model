@@ -19,6 +19,10 @@ const project = new MonorepoTsProject({
   ],
 });
 
+// Get the ObjectFile
+const packageJson = project.tryFindObjectFile('package.json');
+packageJson?.addOverride('pnpm.overrides.ws', '^8.17.1');
+
 // Lambda Functions & Layers
 const lambda = new Project({
   parent: project,
