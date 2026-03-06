@@ -24,7 +24,7 @@ else rootCfg.env = { account, region };
 export const config = rootCfg;
 
 if (process.env.CDK_CONFIG_SUPPRESS_WARNING == null && process.env.CDK_NAG == null) {
-  console.info(config);
+  console.info("CDK configuration loaded");
 }
 
 export default config;
