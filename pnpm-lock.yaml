@@ -15,17 +15,17 @@ importers:
     dependencies:
       '@aws-cdk/aws-cognito-identitypool-alpha':
         specifier: latest
-        version: 2.186.0-alpha.0(aws-cdk-lib@2.189.0(constructs@10.3.0))(constructs@10.3.0)
+        version: 2.186.0-alpha.0(aws-cdk-lib@2.189.1(constructs@10.3.0))(constructs@10.3.0)
       aws-cdk-lib:
-        specifier: ^2.189.0
-        version: 2.189.0(constructs@10.3.0)
+        specifier: ^2.189.1
+        version: 2.189.1(constructs@10.3.0)
       cdk-nag:
         specifier: ^2.28.27
-        version: 2.28.27(aws-cdk-lib@2.189.0(constructs@10.3.0))(constructs@10.3.0)
+        version: 2.28.27(aws-cdk-lib@2.189.1(constructs@10.3.0))(constructs@10.3.0)
     devDependencies:
       '@aws/pdk':
         specifier: ^0.23.2
-        version: 0.23.2(@aws-cdk/aws-cognito-identitypool-alpha@2.186.0-alpha.0(aws-cdk-lib@2.189.0(constructs@10.3.0))(constructs@10.3.0))(aws-cdk-lib@2.189.0(constructs@10.3.0))(cdk-nag@2.28.27(aws-cdk-lib@2.189.0(constructs@10.3.0))(constructs@10.3.0))(constructs@10.3.0)(projen@0.79.7(constructs@10.3.0))
+        version: 0.23.2(@aws-cdk/aws-cognito-identitypool-alpha@2.186.0-alpha.0(aws-cdk-lib@2.189.1(constructs@10.3.0))(constructs@10.3.0))(aws-cdk-lib@2.189.1(constructs@10.3.0))(cdk-nag@2.28.27(aws-cdk-lib@2.189.1(constructs@10.3.0))(constructs@10.3.0))(constructs@10.3.0)(projen@0.79.7(constructs@10.3.0))
       '@types/node':
         specifier: ^18
         version: 18.19.14
@@ -161,10 +161,10 @@ importers:
     dependencies:
       '@aws/pdk':
         specifier: ^0.23.2
-        version: 0.23.2(@aws-cdk/aws-cognito-identitypool-alpha@2.186.0-alpha.0(aws-cdk-lib@2.189.0(constructs@10.3.0))(constructs@10.3.0))(aws-cdk-lib@2.189.0(constructs@10.3.0))(cdk-nag@2.28.27(aws-cdk-lib@2.189.0(constructs@10.3.0))(constructs@10.3.0))(constructs@10.3.0)(projen@0.79.7(constructs@10.3.0))
+        version: 0.23.2(@aws-cdk/aws-cognito-identitypool-alpha@2.186.0-alpha.0(aws-cdk-lib@2.189.1(constructs@10.3.0))(constructs@10.3.0))(aws-cdk-lib@2.189.1(constructs@10.3.0))(cdk-nag@2.28.27(aws-cdk-lib@2.189.1(constructs@10.3.0))(constructs@10.3.0))(constructs@10.3.0)(projen@0.79.7(constructs@10.3.0))
       aws-cdk-lib:
-        specifier: ^2.189.0
-        version: 2.189.0(constructs@10.3.0)
+        specifier: ^2.189.1
+        version: 2.189.1(constructs@10.3.0)
       cdk-constants:
         specifier: ^3.0.3
         version: 3.0.3
@@ -173,7 +173,7 @@ importers:
         version: 1.0.0
       cdk-nag:
         specifier: ^2.28.27
-        version: 2.28.27(aws-cdk-lib@2.189.0(constructs@10.3.0))(constructs@10.3.0)
+        version: 2.28.27(aws-cdk-lib@2.189.1(constructs@10.3.0))(constructs@10.3.0)
       config:
         specifier: ^3.3.11
         version: 3.3.11
@@ -262,8 +262,8 @@ packages:
     peerDependencies:
       ajv: '>=8'
 
-  '@aws-cdk/asset-awscli-v1@2.2.231':
-    resolution: {integrity: sha512-vPqD/K2pK/ALhU5r5Nafdc2nLB+LJKxNyxUmQnLsazU6AWDJfkqjHQx8m3J4Cjl2C3chQkIRMdzSDuXIlo43GA==}
+  '@aws-cdk/asset-awscli-v1@2.2.245':
+    resolution: {integrity: sha512-MKzNO94uAnbBX/+U63hv9Vp5SvjQAaBe3cxgOtcHU2nmz2gJV8zTVeMWny9jLPjJCbvjsE6t1GMbyl/kggZqGQ==}
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0':
     resolution: {integrity: sha512-7bY3J8GCVxLupn/kNmpPc5VJz8grx+4RKfnnJiO1LG+uxkZfANZG3RMHhE+qQxxwkyQ9/MfPtTpf748UhR425A==}
@@ -2974,8 +2974,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-cdk-lib@2.189.0:
-    resolution: {integrity: sha512-B5Uha7uRntOAyuKfU0eFtxij3ZVTzGAbetw5qaXlURa68wsWpKlU72/OyKugB6JYkhjCZkSTVVBxd1pVTosxEw==}
+  aws-cdk-lib@2.189.1:
+    resolution: {integrity: sha512-9JU0yUr2iRTJ1oCPrHyx7hOtBDWyUfyOcdb6arlumJnMcQr2cyAMASY8HuAXHc8Y10ipVp8dRTW+J4/132IIYA==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -8496,13 +8496,13 @@ snapshots:
       jsonpointer: 5.0.1
       leven: 3.1.0
 
-  '@aws-cdk/asset-awscli-v1@2.2.231': {}
+  '@aws-cdk/asset-awscli-v1@2.2.245': {}
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0': {}
 
-  '@aws-cdk/aws-cognito-identitypool-alpha@2.186.0-alpha.0(aws-cdk-lib@2.189.0(constructs@10.3.0))(constructs@10.3.0)':
+  '@aws-cdk/aws-cognito-identitypool-alpha@2.186.0-alpha.0(aws-cdk-lib@2.189.1(constructs@10.3.0))(constructs@10.3.0)':
     dependencies:
-      aws-cdk-lib: 2.189.0(constructs@10.3.0)
+      aws-cdk-lib: 2.189.1(constructs@10.3.0)
       constructs: 10.3.0
 
   '@aws-cdk/cloud-assembly-schema@41.2.0': {}
@@ -9031,11 +9031,11 @@ snapshots:
     dependencies:
       tslib: 2.6.2
 
-  '@aws/pdk@0.23.2(@aws-cdk/aws-cognito-identitypool-alpha@2.186.0-alpha.0(aws-cdk-lib@2.189.0(constructs@10.3.0))(constructs@10.3.0))(aws-cdk-lib@2.189.0(constructs@10.3.0))(cdk-nag@2.28.27(aws-cdk-lib@2.189.0(constructs@10.3.0))(constructs@10.3.0))(constructs@10.3.0)(projen@0.79.7(constructs@10.3.0))':
+  '@aws/pdk@0.23.2(@aws-cdk/aws-cognito-identitypool-alpha@2.186.0-alpha.0(aws-cdk-lib@2.189.1(constructs@10.3.0))(constructs@10.3.0))(aws-cdk-lib@2.189.1(constructs@10.3.0))(cdk-nag@2.28.27(aws-cdk-lib@2.189.1(constructs@10.3.0))(constructs@10.3.0))(constructs@10.3.0)(projen@0.79.7(constructs@10.3.0))':
     dependencies:
-      '@aws-cdk/aws-cognito-identitypool-alpha': 2.186.0-alpha.0(aws-cdk-lib@2.189.0(constructs@10.3.0))(constructs@10.3.0)
-      aws-cdk-lib: 2.189.0(constructs@10.3.0)
-      cdk-nag: 2.28.27(aws-cdk-lib@2.189.0(constructs@10.3.0))(constructs@10.3.0)
+      '@aws-cdk/aws-cognito-identitypool-alpha': 2.186.0-alpha.0(aws-cdk-lib@2.189.1(constructs@10.3.0))(constructs@10.3.0)
+      aws-cdk-lib: 2.189.1(constructs@10.3.0)
+      cdk-nag: 2.28.27(aws-cdk-lib@2.189.1(constructs@10.3.0))(constructs@10.3.0)
       constructs: 10.3.0
       projen: 0.79.7(constructs@10.3.0)
 
@@ -12148,9 +12148,9 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws-cdk-lib@2.189.0(constructs@10.3.0):
+  aws-cdk-lib@2.189.1(constructs@10.3.0):
     dependencies:
-      '@aws-cdk/asset-awscli-v1': 2.2.231
+      '@aws-cdk/asset-awscli-v1': 2.2.245
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
       '@aws-cdk/cloud-assembly-schema': 41.2.0
       constructs: 10.3.0
@@ -12543,9 +12543,9 @@ snapshots:
 
   cdk-iam-actions@1.0.0: {}
 
-  cdk-nag@2.28.27(aws-cdk-lib@2.189.0(constructs@10.3.0))(constructs@10.3.0):
+  cdk-nag@2.28.27(aws-cdk-lib@2.189.1(constructs@10.3.0))(constructs@10.3.0):
     dependencies:
-      aws-cdk-lib: 2.189.0(constructs@10.3.0)
+      aws-cdk-lib: 2.189.1(constructs@10.3.0)
       constructs: 10.3.0
 
   chalk@2.4.2:
